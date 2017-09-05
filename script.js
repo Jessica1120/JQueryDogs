@@ -9,6 +9,8 @@ function addDog() {
     $('ul').append('<li>Dog</li>');
 }
 
-
+function removeDog() {
+    $('li').last().remove();
+}
 
 $(document).ready(readyNow)
